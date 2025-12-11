@@ -1,0 +1,51 @@
+space-leaf-hybrid-vehicle-sim/
+├─ package.json
+├─ tsconfig.json
+├─ jest.config.ts
+├─ README.md
+├─ src/
+│  ├─ types.ts
+│  ├─ vehicle.ts
+│  ├─ core/
+│  │  └─ scheduler.ts
+│  ├─ control/
+│  │  ├─ autopilot.ts
+│  │  ├─ maneuvers.ts
+│  │  └─ vectorControl.ts
+│  ├─ avoidance/
+│  │  └─ avoidance.ts
+│  ├─ bubble/
+│  │  ├─ typesBubble.ts
+│  │  ├─ controllerBubble.ts
+│  │  ├─ safetyBubble.ts
+│  │  ├─ redundancy.ts
+│  │  └─ crossRotation.ts
+│  ├─ comms/
+│  │  ├─ typesComms.ts
+│  │  ├─ cryptoStrong.ts
+│  │  ├─ satRelayStrong.ts
+│  │  ├─ beaconSignature.ts
+│  │  ├─ distressSignatureDriver.ts
+│  │  └─ securityRelay.ts
+│  ├─ safety/
+│  │  └─ airlocks.ts
+│  ├─ telemetry/
+│  │  └─ resources.ts
+│  ├─ ui/
+│  │  └─ voiceReports.ts
+│  ├─ voice/
+│  │  └─ commandRouter.ts
+│  └─ sim/
+│     ├─ crises.ts
+│     └─ horizon.ts
+└─ tests/
+   ├─ autopilot.test.ts
+   ├─ bubble.test.ts
+   ├─ maneuvers.test.ts
+   ├─ avoidance.test.ts
+   ├─ comms.test.ts
+   ├─ airlocks.test.ts
+   ├─ resources.test.ts
+   ├─ voice.test.ts
+   ├─ scheduler.test.ts
+   └─ horizon.test.ts
